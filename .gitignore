@@ -1,0 +1,45 @@
+# Archivos de entorno virtual
+.venv/
+env/
+ENV/
+venv/
+bin/
+Include/
+Lib/
+lib64/
+Scripts/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuraciones de VS Code
+.vscode/
+
+# Archivos de dependencias
+*.lock
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración y archivos generados por Jupyter
+.ipynb_checkpoints/
+
+# Archivos de test y coverage
+htmlcov/
+*.cover
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.log
